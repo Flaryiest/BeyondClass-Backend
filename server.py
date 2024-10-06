@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 from math import ceil
 from flask import Flask, request, jsonify, make_response
 from dotenv import load_dotenv
-from openai import OpenAI
+import openai
 from flask_cors import CORS
 from datetime import datetime, timedelta
 
