@@ -428,4 +428,4 @@ def post_quiz():
     return {"success": True}
 
 if __name__ == "__main__":
-    app.run("10.0.0.250", 3333, threaded=True)
+    app.run("0.0.0.0", 3333, threaded=True)
