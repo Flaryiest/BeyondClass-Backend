@@ -1,1 +1,1 @@
-web: gunicorn server:app
+web: gunicorn --bind 0.0.0.0:3333 server:app
